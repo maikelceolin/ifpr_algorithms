@@ -1,6 +1,6 @@
-/*
 
-1.Faça um programa em C que receba um número real e mostre uma mensagem contendo o número digitado com apenas 3 casas decimais.
+
+//1.Faça um programa em C que receba um número real e mostre uma mensagem contendo o número digitado com apenas 3 casas decimais.
 
 #include "stdio.h"
 int main(){
@@ -10,8 +10,8 @@ int main(){
 	printf("This is your number in 3 decimal places: %.3f",num);
 }
 
-2.Faça um programa em C que receba um número, representando a capacidade de um Disco Rígido (HD) em Gigabytes (Gb)
- e converta esta capacidade para Megabytes (Mb), Kilobytes (Kb) e Bytes (B), mostrando estes resultados.
+//2.Faça um programa em C que receba um número, representando a capacidade de um Disco Rígido (HD) em Gigabytes (Gb)
+// e converta esta capacidade para Megabytes (Mb), Kilobytes (Kb) e Bytes (B), mostrando estes resultados.
 
 #include "stdio.h"
 #include "math.h"
@@ -25,8 +25,8 @@ int main()
 	size=size*pow(10,9);printf("\n Capacity in Bytes: %f",size);
 }
 
-Um funcionário recebe um salário fixo. Sobre este salário fixo são acrescidos mais 12% de comissão sobre as suas vendas no mês, além dele pagar 15% de imposto sobre o salário.
- Faça um programa em C que receba o salário fixo e o valor de vendas de um funcionário, calcule e mostre o salário líquido dele.
+//Um funcionário recebe um salário fixo. Sobre este salário fixo são acrescidos mais 12% de comissão sobre as suas vendas no mês, além dele pagar 15% de imposto sobre o salário.
+// Faça um programa em C que receba o salário fixo e o valor de vendas de um funcionário, calcule e mostre o salário líquido dele.
 
 #include "stdio.h"
 #include "math.h"
@@ -43,8 +43,8 @@ int main()
 	printf("\n\nWhat a big TAX! :'(\n");
 }
 
-Zezinho deve pagar uma conta no valor de 350 reais. Cada dia que ele atrasa para pagar esta conta, ele deve acrescentar ao valor da conta uma multa de 5%.
- Faça um programa que mostre o valor que Zezinho deverá pagar na conta caso ele atrase 4 dias para pagá-la.
+//Zezinho deve pagar uma conta no valor de 350 reais. Cada dia que ele atrasa para pagar esta conta, ele deve acrescentar ao valor da conta uma multa de 5%.
+ //Faça um programa que mostre o valor que Zezinho deverá pagar na conta caso ele atrase 4 dias para pagá-la.
 
 #include "stdio.h"
 #include "math.h"
@@ -61,8 +61,8 @@ int main()
 	printf("Outta business Zezinho! The price now is: $%.2f!!!",amount);
 }
 
-Faça um programa em C que receba a altura e o peso de uma pessoa e calcule o valor de seu índice de massa corpórea (IMC) com duas casas decimais. Considere a fórmula:
-IMC = peso / altura2 
+//Faça um programa em C que receba a altura e o peso de uma pessoa e calcule o valor de seu índice de massa corpórea (IMC) com duas casas decimais. Considere a fórmula:
+//IMC = peso / altura2 
 
 #include "stdio.h"
 #include "math.h"
@@ -78,14 +78,15 @@ int main()
 	printf("\nYour Body Mass Index (BMI) is: %.2f kg/m^2\n",bmi);
 }
 
-Faça um programa que receba o número de horas trabalhadas e o valor do salário mínimo de um funcionário, calcule e mostre o salário líquido,
- de acordo com as regras a seguir:
-
+//Faça um programa que receba o número de horas trabalhadas e o valor do salário mínimo de um funcionário, calcule e mostre o salário líquido,
+ //de acordo com as regras a seguir:
+/*
 a) A hora trabalhada vale 0.5% do salário mínimo;
 b) O salário bruto equivale ao valor a receber pelas horas trabalhadas;
 c) O imposto de renda retido na fonte é de 13% sobre o salário bruto.
 d) O valor do INSS a ser descontado é de 7% sobre o salário bruto.
 e) O salário líquido equivale ao salário bruto menos os descontos.
+*/
 
 #include "stdio.h"
 #include "math.h"
@@ -107,4 +108,3 @@ int main()
 	
 }
 
-*/
