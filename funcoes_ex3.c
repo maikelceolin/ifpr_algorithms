@@ -11,22 +11,22 @@ float pow(float a, float b);
 int main(void)
 {
     float valor;
-    int item;
+    int option;
     printf("\n\nDigite o valor do produto em R$ (ex: 199.90): ");
     scanf("%f",&valor);
-    item = selecionaOpcao(valor);
+    option = selecionaOpcao(valor);
 
-    if(item == 1)
+    if(option == 1)
     {
         printf("\nTotal a pagar: (R$%.2f - R$%.2f) = R$%.2f\n\n", valor, valor-preco1(valor), preco1(valor));
         return 0;
     }
-    else if(item == 2)
+    else if(option == 2)
     {
         printf("\nTotal a pagar: (R$%.2f) 3x R$%.2f\n\n", valor, preco2(valor, 3));
         return 0;
     }
-    else if(item == 3)
+    else if(option == 3)
     {
         int i,cont;
         printf("\nSelecione o parcelamento desejado:\n\n");
