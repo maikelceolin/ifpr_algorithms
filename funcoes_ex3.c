@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Este foi um trabalho apresentado na disciplina de algorítmos. Apenas 4 alunos foram aprovados, ainda bem que eu passei.
 int selecionaOpcao(float valor);
 float preco1(float valor);
 float preco2(float valor, int parcelas);
@@ -50,7 +51,7 @@ int main(void)
         }
     }
 }
-// Opção 1: A vista com 5%% de desconto.
+// Opção 1: A vista com 5%% de desconto. Mostrar valores na tela
 float preco1(float valor)
 {
     float preco;
