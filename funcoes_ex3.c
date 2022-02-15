@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
 
 int selecionaOpcao(float valor);
 float preco1(float valor);
@@ -13,7 +12,6 @@ int main(void)
 {
     float valor;
     int item;
-    setlocale(LC_ALL, "Portuguese");
     printf("\n\nDigite o valor do produto em R$ (ex: 199.90): ");
     scanf("%f",&valor);
     item = selecionaOpcao(valor);
